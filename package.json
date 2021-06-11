@@ -1,0 +1,26 @@
+{
+  "name": "onlinecsgoantivaccommunitywebapp",
+  "version": "1.0.0",
+  "description": "online csgo anti-vac community web app",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "jquerry": "0.0.1-security",
+    "jquery": "^3.3.1",
+    "lite-server": "^2.6.1",
+    "node": "^16.1.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.9.2",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Saqib Javed Qureshi",
+  "license": "ISC"
+}

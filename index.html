@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel = "stylesheet" href= "node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+   
+    <title>Online CS GO Anti-VAC Community</title>
+</head>
+<body>
+    <nav class="navbar navbar-color navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height ="30" width ="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class = "navbar-nav mr-auto">
+                    <li class="nav-item active"><a class = "nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class = "nav-link" href="./proMatches.html"><span class="fa fa-info fa-lg"></span> Pro Matches</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a data-toggle ="modal" id = "loginMemberButton">
+                        <span class="fa fa-sign-in"> </span> Already a Member
+                    </a>
+                    <a data-toggle ="modal" id = "signUpButton">
+                        <span class="fa fa-user-plus"> </span> Sign-Up
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class='container'>
+    <div class="row row-content">
+        <div class="col">
+        <input class="form-control form-rounded" type="text" placeholder="Enter Steam:ID/ Nick Name " size="60px" >
+        </div>
+        <div class="col-auto">
+            <a href="#"><span class="fa fa-search fa-lg search-icon"></a>
+        </div>
+    </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#loginMemberButton").click(function(){
+                $('#loginModal').modal('show');
+            });
+            $("#loginModalCloseButton").click(function(){
+                $('#loginModal').modal('hide');
+            });
+            
+
+        });
+    </script>
+</body>
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    
+    
+    </html>
