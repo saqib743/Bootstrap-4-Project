@@ -39,6 +39,17 @@ color: rgb(80, 0, 104);
         color:blue }
     .modal-content .modal-header .close {
         color:blue }
-  
+  .header-color{
+    background-color: rgb(218, 189, 117); 
+  }
+  .content-color{
+    background-color: rgb(221, 207, 172);
+  }
   .modal-content .modal-body {
     background-color: rgb(218, 189, 117); }
+    .list-group{
+        max-height: 200px;
+        margin-bottom: 10px;
+        overflow:scroll;
+        -webkit-overflow-scrolling: touch;
+    }
