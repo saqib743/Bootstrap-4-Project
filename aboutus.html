@@ -16,6 +16,36 @@
     <title>Online CS GO Anti-VAC Community</title>
 </head>
 <body>
+
+    
+
+
+
+
+
+    <nav class="navbar navbar-color navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="./index.html"><img src="img/logo.png" height ="30" width ="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class = "navbar-nav mr-auto">
+                    <li class="nav-item"><a class = "nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class = "nav-link" href="./proMatches.html"><span class="fa fa-info fa-lg"></span> Pro Matches</a></li>
+                    <li class="nav-item active"><a class = "nav-link" href="#"><span class="fa fa-info fa-lg"></span> About Us</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a id="loginMemberButton">
+                        <span class="fa fa-sign-in"> </span> Already a Member
+                    </a>
+                    <a  id = "signUpButton">
+                        <span class="fa fa-user-plus"> </span> Sign-Up
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content"> 
                 <div class="modal-content">
@@ -54,56 +84,33 @@
             </div>
     </div>
 
-    <nav class="navbar navbar-color navbar-expand-sm fixed-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height ="30" width ="41"></a>
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class = "navbar-nav mr-auto">
-                    <li class="nav-item active"><a class = "nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class = "nav-link" href="./proMatches.html"><span class="fa fa-info fa-lg"></span> Pro Matches</a></li>
-                    <li class="nav-item"><a class = "nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About Us</a></li>
-                </ul>
-                <span class="navbar-text">
-                    <a id="loginMemberButton">
-                        <span class="fa fa-sign-in"> </span> Already a Member
-                    </a>
-                    <a  id = "signUpButton">
-                        <span class="fa fa-user-plus"> </span> Sign-Up
-                    </a>
-                </span>
-            </div>
-        </div>
-    </nav>
-    <div class='container'>
-        <div class="row row-content">
-            <div class="col">
-            <input id = "userSearchText" class="form-control form-rounded" type="text" placeholder="Enter Steam:ID/ Nick Name to search " size="60px" required>
-            </div>
-            <div class="col-auto">
-                <a href="#" id="searchPlayerButton"><span class="fa fa-search fa-lg search-icon"></a>
-            </div>
-        </div>
-        <div class="row row-content">
-            
-                <div class="col-12 col-sm-4">
-                    <iframe width="400" height="    400" src="https://www.youtube.com/embed/FimYosGRG-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="col-12 col-sm-4">
-                <iframe width="400" height="400" src="https://www.youtube.com/embed/tQjL_pAVuk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="col-12 col-sm-4">
-                <iframe width="400" height="400" src="https://www.youtube.com/embed/Ue1IkLHHmz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
-            
 
+    <div class='container'>
+        <div class = "row row-content align-items-center">
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media ">
+                    <img class="d-flex mr-3 img-thumbnail align-self center" width="100" height="100" src="./img/author.jpg" alt="alberto">
+                    <div class= "media-body text-bg">
+                        <h2 class="mt-0 text ">Saqib Javed Qureshi</h2>
+                        <h4 class="text">Web Applications Developer</h4>
+                        <h4 class="text">Bootstrap 4 | jQuery | JavaScript | SASS/SCSS, LESS | MERN | MySQL | ERP Developer | Business Analyst | Joget</h4>
+                        <div class="d-none d-sm-block">
+                        <a href="https://www.linkedin.com/in/saqib-javed-015598128/"> <i class="fa fa-linkedin text fa-lg" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        
     </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
-<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+
     
     
     </html>

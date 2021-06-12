@@ -20,6 +20,10 @@ body{
 .text{
     color: cornsilk;
 }
+.text-bg{
+    background-color: rgb(218, 189, 117);
+    opacity: 80%;
+}
 .form-rounded {
     border-radius: 1rem;
     }
@@ -32,7 +36,10 @@ body{
     padding: 0px 0px; 
 color: rgb(80, 0, 104);
 }
-
+.img-class
+    {
+        size: 10px 10px 10px 10px;
+    }
 .modal-content .modal-header {
     background-color: rgb(221, 207, 172); }
     .modal-content .modal-header .modal-title {
@@ -53,3 +60,4 @@ color: rgb(80, 0, 104);
         overflow:scroll;
         -webkit-overflow-scrolling: touch;
     }
+    
