@@ -4,15 +4,17 @@
   "description": "online csgo anti-vac community web app",
   "main": "index.html",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
+    "bootstrap": "^5.0.1",
+    "jquerry": "0.0.1-security",
     "jquery": "^3.3.1",
+    "lite-server": "^2.6.1",
     "node": "^16.1.0",
-    "popper.js": "^1.12.9"
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "@popperjs/core": "^2.9.2",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
