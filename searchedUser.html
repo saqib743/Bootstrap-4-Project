@@ -7,12 +7,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel = "stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel = "stylesheet" href= "node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
-   
+   <!-- endbuild -->
     <title>Online CS GO Anti-VAC Community</title>
 </head>
 <body>
@@ -32,8 +32,9 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class = "navbar-nav mr-auto">
                     <li class="nav-item"><a class = "nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item active"><a class = "nav-link" href="./proMatches.html"><span class="fa fa-info fa-lg"></span> Pro Matches</a></li>
+                    <li class="nav-item "><a class = "nav-link" href="./proMatches.html"><span class="fa fa-info fa-lg"></span> Pro Matches</a></li>
                     <li class="nav-item"><a class = "nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About Us</a></li>
+                    <li class="nav-item active"><a class = "nav-link" href="#"><span class="fa fa-info fa-lg"></span> Search User</a></li>
                 </ul>
                 <span class="navbar-text">
                     <a id="loginMemberButton">
@@ -241,18 +242,13 @@
         </div>
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script>
-        $(document).ready(function(){
-            var url_string = window.location.href; 
-            var url = new URL(url_string);
-            var c = url.searchParams.get("id");
-            $("#userSearchText").val(c);
-        });
-    </script>
+    
+     <!-- endbuild -->
 </body>
 
     

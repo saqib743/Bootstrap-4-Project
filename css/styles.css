@@ -1,5 +1,5 @@
 body{
-    background-image: url("/img/BackGND.jpg");
+    background-color: rgb(214, 183, 105);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 50px 0px 0px 0px;
@@ -40,21 +40,16 @@ color: rgb(80, 0, 104);
     {
         size: 10px 10px 10px 10px;
     }
-.modal-content .modal-header {
-    background-color: rgb(221, 207, 172); }
-    .modal-content .modal-header .modal-title {
-        color:blue }
-    .modal-content .modal-header .close {
-        color:blue }
-  .header-color{
+
+.header-color{
     background-color: rgb(218, 189, 117); 
   }
-  .content-color{
+.content-color{
     background-color: rgb(221, 207, 172);
   }
-  .modal-content .modal-body {
+.modal-content .modal-body {
     background-color: rgb(218, 189, 117); }
-    .list-group{
+.list-group{
         max-height: 200px;
         margin-bottom: 10px;
         overflow:scroll;

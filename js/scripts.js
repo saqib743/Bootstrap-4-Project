@@ -6,8 +6,11 @@ $(document).ready(function(){
         $('#loginModal').modal('hide');
     });
     $("#searchPlayerButton").click(function(){
-        let sText=$("#userSearchText").val();
+        var sText=$("#userSearchText").val();
         window.location="/searchedUser.html?id="+sText;
     });
-    
+    var url_string = window.location.href; 
+    var url = new URL(url_string);
+    var c = url.searchParams.get("id");
+    $("#userSearchText").val(c);
 });
